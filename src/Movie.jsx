@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { AppContext } from "./MovieContext/context";
 import "./Movie.css";
+import SingleMovie from "./pages/SingleMovie";
 
 const Movie = () => {
   const { movie, loading } = useContext(AppContext);
